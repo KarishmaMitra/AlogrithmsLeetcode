@@ -27,7 +27,7 @@ public class SwapInPairs {
             res = res.next;
         }
     }
-    
+
     public static ListNode swapInPairs(ListNode head) {
         if(head==null || head.next==null) return head;
         ListNode node =  head.next;
