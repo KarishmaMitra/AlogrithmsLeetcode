@@ -9,7 +9,7 @@ import java.util.Map;
  */
 public class TwoSum {
 
-    public static void main(String args) {
+    public static void main(String[] args) {
         int[] arr = {5,8,9,2};
         int target = 7;
         int[] res = twoSum(arr, target);

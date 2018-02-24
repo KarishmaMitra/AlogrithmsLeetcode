@@ -8,7 +8,7 @@ package problemSolving;
  * You may assume the two numbers do not contain any leading zero, except the number 0 itself.
  */
 public class AddTwoNumbers {
-    public static void main(String args) {
+    public static void main(String[] args) {
 
         ListNode l1 = new ListNode(2);
         l1.next = new ListNode(4);
